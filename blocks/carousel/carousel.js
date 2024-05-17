@@ -1,4 +1,4 @@
-import {fetchPlaceholders} from '../../scripts/aem.js';
+import { fetchPlaceholders } from '../../scripts/aem.js';
 
 function updateActiveSlide(slide) {
   const block = slide.closest('.carousel');
@@ -64,7 +64,7 @@ function bindEvents(block) {
     entries.forEach((entry) => {
       if (entry.isIntersecting) updateActiveSlide(entry.target);
     });
-  }, {threshold: 0.5});
+  }, { threshold: 0.5 });
   block.querySelectorAll('.carousel-slide').forEach((slide) => {
     slideObserver.observe(slide);
   });
