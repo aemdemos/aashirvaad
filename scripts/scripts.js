@@ -15,7 +15,7 @@ import {
   getMetadata,
   loadScript,
   toCamelCase,
-  toClassName
+  toClassName,
   /* experimentation ends */
 } from './aem.js';
 
