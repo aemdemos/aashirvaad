@@ -12,9 +12,10 @@
 
 :root {
   /* colors */
-  --link-color: #035fe6;
+  --link-color: #da001c;
   --link-hover-color: #136ff6;
   --background-color: white;
+  --background-red-color: #da001c;
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
@@ -38,7 +39,7 @@
   --heading-font-size-xs: 18px;
 
   /* nav height */
-  --nav-height: 64px;
+  --nav-height: 75px;
 }
 
 @font-face {
@@ -187,12 +188,12 @@ main img {
 
 /* sections */
 main .section {
-  padding: 64px 16px;
+  /* padding: 64px 16px; */
 }
 
 @media (width >= 600px) {
   main .section {
-    padding: 64px 32px;
+    /* padding: 64px 32px; */
   }
 }
 
