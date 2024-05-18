@@ -9,11 +9,11 @@
     flex: 0 0 max-content;
     margin: 0;
     border: 1px solid var(--dark-color);
-    border-radius: 0;
+    border-radius: 1.5rem;
     padding: 8px 16px;
-    background-color: var(--light-color);
+    background-color: initial;
     color: initial;
-    font-size: unset;
+    font-size: 1rem;
     font-weight: bold;
     line-height: unset;
     text-align: initial;
@@ -25,22 +25,31 @@
 
 .tabs .tabs-list button[aria-selected="true"] {
     border-bottom: 1px solid var(--background-color);
-    background-color: var(--background-color);
     cursor: initial;
+    background: #da001c;
+    border-color: #da001c;
+    color: #fff6e3;
 }
 
 .tabs .tabs-list button[aria-selected="false"]:hover,
 .tabs .tabs-list button[aria-selected="false"]:focus {
-    background-color: var(--dark-color);
+    background: #da001c;
 }
 
 .tabs .tabs-panel {
     margin-top: -1px;
-    padding: 0 16px;
-    border: 1px solid var(--dark-color);
+    /* padding: 0 16px;
+    border: 1px solid var(--dark-color); */
     overflow: auto;
 }
 
 .tabs .tabs-panel[aria-hidden="true"] {
     display: none;
+}
+
+.tabs-tab {
+    background: #da001c;
+    border-color: #da001c;
+
+    color: white;
 }

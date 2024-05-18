@@ -1,7 +1,7 @@
 main .hero-container > div {
-  max-width: unset;
+  max-width: 70.375rem;
 }
-  
+
 main .hero-container {
   padding: 0;
 }
@@ -13,10 +13,12 @@ main .hero-container {
 }
 
 .hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
+  color: #fff6e3;
+  display: -webkit-box;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .hero picture {
@@ -31,4 +33,23 @@ main .hero-container {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.hero p {
+  color: #fff6e3;
+  display: -webkit-box;
+  font-family: Poppins,sans-serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-top: 1.5rem;
+  overflow: hidden;
+  max-width: 35%;
+}
+
+.hero div {
+  margin-left: 3rem;
+}
+
+.hero p.button-container {
+  margin-left: 3rem;
 }
