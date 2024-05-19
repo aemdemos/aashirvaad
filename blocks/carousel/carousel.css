@@ -180,7 +180,6 @@
     .carousel-slide-content p:first-child {
         -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
-        color: #fff6e3;
         display: -webkit-box;
         font-size: 2.5rem;
         line-height: 3.5rem;
@@ -210,5 +209,33 @@
             margin: auto;
         }
     }
+
+    .carousel.image-left .carousel-slide .carousel-slide-image picture {
+        position: relative;
+    }
+
+    .carousel.image-left .carousel-slide  {
+        flex-direction: row;
+        min-height: auto;
+    }
+
+    .carousel.image-left .carousel-slide .carousel-slide-image {
+        width: 50%;
+        height: 100%;
+    }
+
+    .carousel.image-left .carousel-slide .carousel-slide-image picture > img {
+        object-fit: contain;
+        padding-left: 20%;
+    }
+
+    .carousel.image-left .carousel-slide .carousel-slide-content p:first-child::before{
+        content: '';
+    }
+
+    .carousel.image-left .carousel-slide .carousel-slide-content p {
+        color: black;
+    }
+
 
 }
